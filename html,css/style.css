@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    width: 100%;
+    background-color:rgb(255, 255, 255);
+}
+.main{
+    height: 100%;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.navbar{
+    width: 100%;
+    height: 100%;
+    display:flex;
+    align-items: center;
+    background-color: dodgerblue;
+
+}
+.priceoye{
+    height: 30px;
+    margin: 20px;
+}
+.s{
+    height: 40px;
+    margin-left: 30%;
+    width: 250px;
+    border-radius: 8px;
+    background-image: url(https://static.priceoye.pk/icons/mic-blue.svg);
+    background-repeat: no-repeat;
+    background-size: 460px 30px;
+}
+.b1{
+    margin-left: 28%;
+    height: 35px;
+    width: 50px;
+    border-radius: 8px;
+    color: dodgerblue;
+}
+.b2{
+    margin-left: 5px;
+    height: 35px;
+    width: 60px;
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    background-color: dodgerblue;
+}
+.box2{
+    height: 100%;
+    width: 100%;
+    background-color: bisque;
+    background-image: url(https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQdZ07aWjtOaVLYw-loCyCd5wHG5ia-0aBaBj-rFuO0pKPRZJQD);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 50px;
+    margin: 0px;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.heading{
+    margin: 15px
+}
+.box{
+    display: inline-flex;
+    color: rgb(0, 0, 0);
+    height: 250px;
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+    margin: 15px;
+    justify-items: center;
+    text-align: left;
+    padding: 15px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+/* .box:hover{
+    transform: scale(1.05);
+} */
+.pc{
+    text-align: center;
+}
+.pic{
+    height: 80px;
+    width: 80px;
+}
+.checked{
+    color: orange;
+}
+.star{
+    color: black;
+    background-color: rgb(251, 244, 208);
+    margin: 10px;
+    width: 100px;
+    margin-top: -5px;
+}
+.review{
+    font-size: 10px;
+}
+.rs{
+    text-align: left;
+}
+.opacity{
+    opacity: 0.5;
+    font-size: 13px;
+    color: rgb(255, 0, 0);
+    
+}
+.color{
+    color: rgb(0, 0, 0);
+}
+.off{
+    width: 80px;
+    height: 15px;
+    text-align: center;
+    font-size: 13px;
+    color: rgb(31, 116, 38);
+    background-color: rgb(186, 243, 210);
+    margin-left: 150px;
+    margin-top: -16px;
+}
+a:link{
+    text-decoration: none;
+}
+
